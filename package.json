@@ -1,0 +1,68 @@
+{
+  "name": "TemplateRN59",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "xs": "react-native run-ios --simulator='iPhone Xs Max'",
+    "android": "react-native run-android",
+    "install-pod": "yarn && cd ios && pod update && cd .. && react-native start --reset-cache",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "eslint .",
+    "prettier": "./node_modules/.bin/prettier --single-quote --write './src/**/*.{ts,js,css}'",
+    "watchman": "watchman watch-del-all && rm -rf $TMPDIR/react-* && rm -rf yarn.lock && rm -rf ./node_modules && yarn && react-native start --reset-cache",
+    "postinstall": "npx jetify"
+  },
+  "lint-staged": {
+    "*.{ts,js,css}": [
+      "./node_modules/.bin/prettier --single-quote --write",
+      "git add ."
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "intl": "^1.2.5",
+    "lodash": "^4.17.15",
+    "prop-types": "^15.7.2",
+    "react": "16.8.3",
+    "react-native": "0.59.10",
+    "react-native-code-push": "^5.7.0",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-status-bar-height": "^2.4.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.7",
+    "react-redux": "^7.1.1",
+    "reactotron-react-native": "^4.0.0",
+    "reactotron-redux": "^3.1.2",
+    "reactotron-redux-saga": "^4.2.2",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.1.1",
+    "reduxsauce": "^1.1.0",
+    "seamless-immutable": "^7.1.4",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/runtime": "^7.6.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-root-import": "^6.4.1",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-native": "^3.7.0",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "jetifier": "^1.6.4",
+    "lint-staged": "^9.3.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "prettier": "^1.18.2",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
