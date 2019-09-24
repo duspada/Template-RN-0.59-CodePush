@@ -1,31 +1,25 @@
 import React from 'react';
 
-import {
-  StyleSheet, ImageBackground, StatusBar,
-} from 'react-native';
-
 import CodePush from '~/config/CodePush';
+import { colors } from '~/styles';
+import { Gradient } from './styles';
 
-const styles = StyleSheet.create({
-  container: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    flex: 1,
-    paddingHorizontal: 20,
-  },
-});
+class AuthLoadingScreen extends React.Component {
+  static navigationOptions = () => ({
+    header: null,
+  });
 
-const Main = () => (
-  <ImageBackground
-    source={{
-      uri: 'https://s3-sa-east-1.amazonaws.com/rocketseat-cdn/background.png',
-    }}
-    style={styles.container}
-    resizeMode="cover"
-  >
-    <StatusBar barStyle="light-content" backgroundColor="#7159c1" />
-    <CodePush />
-  </ImageBackground>
-);
+  render() {
+    return (
+      <Gradient
+        colors={[colors.secundary, colors.primary]}
+        startPoint={{ x: 1, y: 1 }}
+        endPoint={{ x: 1, y: 1 }}
+      >
+        <CodePush />
+      </Gradient>
+    );
+  }
+}
 
-export default Main;
+export default AuthLoadingScreen;
