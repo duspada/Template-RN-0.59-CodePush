@@ -101,5 +101,7 @@
   <!-- Include this only if you are planning to use the camera roll -->
   <key>NSPhotoLibraryAddUsageDescription</key>
   <string>Your message to user when the photo library is accessed for the first time</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Facilidade na autenticação do usuário.</string>
 </dict>
 </plist>

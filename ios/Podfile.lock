@@ -63,6 +63,8 @@ PODS:
     - React/Core
     - React/fishhook
     - React/RCTBlob
+  - RNKeychain (4.0.0):
+    - React
   - yoga (0.59.10.React)
 
 DEPENDENCIES:
@@ -78,6 +80,7 @@ DEPENDENCIES:
   - React/RCTPushNotification (from `../node_modules/react-native`)
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNKeychain (from `../node_modules/react-native-keychain`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -95,6 +98,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native"
   react-native-camera:
     :path: "../node_modules/react-native-camera"
+  RNKeychain:
+    :path: "../node_modules/react-native-keychain"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -106,8 +111,9 @@ SPEC CHECKSUMS:
   glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
   React: 36d0768f9e93be2473b37e7fa64f92c1d5341eef
   react-native-camera: b6a6a61bcdbd619c19df3df581fcb009131938bf
+  RNKeychain: de0a565ff2f548576ac494612f05f77a7cda3f55
   yoga: 684513b14b03201579ba3cee20218c9d1298b0cc
 
-PODFILE CHECKSUM: 848a9df6cf2517be0ff221b73c67292cbfa8cb95
+PODFILE CHECKSUM: bbbd09c2955f9ca9ac9a60246a0fc79500a1cdb3
 
 COCOAPODS: 1.7.4
