@@ -32,6 +32,8 @@ target 'TemplateRN59' do
 
   pod 'RNSVG', :path => '../node_modules/react-native-svg'
 
+  pod 'TouchID', :path => '../node_modules/react-native-touch-id'
+
   target 'TemplateRN59Tests' do
     inherit! :search_paths
     # Pods for testing

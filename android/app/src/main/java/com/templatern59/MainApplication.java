@@ -3,6 +3,7 @@ package com.templatern59;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.rnfingerprint.FingerprintAuthPackage;
 import com.horcrux.svg.SvgPackage;
 import com.RNRSA.RNRSAPackage;
 import com.oblador.keychain.KeychainPackage;
@@ -36,6 +37,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new FingerprintAuthPackage(),
             new SvgPackage(),
             new RNRSAPackage(),
             new KeychainPackage(),
