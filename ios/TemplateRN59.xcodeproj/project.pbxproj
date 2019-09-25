@@ -52,7 +52,6 @@
 		482E0C6523384311001C8214 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482E0C2C23384311001C8214 /* EvilIcons.ttf */; };
 		482E0C6623384311001C8214 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482E0C2D23384311001C8214 /* SimpleLineIcons.ttf */; };
 		482E0C6723384311001C8214 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482E0C2E23384311001C8214 /* MaterialIcons.ttf */; };
-		48732079233B167A007DE094 /* libRNRSA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48732076233B15C1007DE094 /* libRNRSA.a */; };
 		49383FA71B794B91AC4455B9 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DB6670637DF4CA0AB498AFC /* FontAwesome5_Solid.ttf */; };
 		4E936C7409894B2FA244F25A /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D5C19AF9B1D401EA0986E3B /* Montserrat-Thin.ttf */; };
 		5A010105116D480DA5D8EDCD /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B423B8CEE2476E9BB1F4A4 /* Montserrat-Regular.ttf */; };
@@ -513,7 +512,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48732079233B167A007DE094 /* libRNRSA.a in Frameworks */,
 				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */,

@@ -18,6 +18,8 @@ PODS:
     - React
   - react-native-camera/RN (3.6.0):
     - React
+  - react-native-rsa-native (1.1.2):
+    - React
   - React/Core (0.59.10):
     - yoga (= 0.59.10.React)
   - React/CxxBridge (0.59.10):
@@ -65,12 +67,15 @@ PODS:
     - React/RCTBlob
   - RNKeychain (4.0.0):
     - React
+  - RNSVG (9.9.4):
+    - React
   - yoga (0.59.10.React)
 
 DEPENDENCIES:
   - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - react-native-camera (from `../node_modules/react-native-camera`)
+  - react-native-rsa-native (from `../node_modules/react-native-rsa-native`)
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
   - React/DevSupport (from `../node_modules/react-native`)
@@ -81,6 +86,7 @@ DEPENDENCIES:
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
   - RNKeychain (from `../node_modules/react-native-keychain`)
+  - RNSVG (from `../node_modules/react-native-svg`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -98,8 +104,12 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native"
   react-native-camera:
     :path: "../node_modules/react-native-camera"
+  react-native-rsa-native:
+    :path: "../node_modules/react-native-rsa-native"
   RNKeychain:
     :path: "../node_modules/react-native-keychain"
+  RNSVG:
+    :path: "../node_modules/react-native-svg"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -111,9 +121,11 @@ SPEC CHECKSUMS:
   glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
   React: 36d0768f9e93be2473b37e7fa64f92c1d5341eef
   react-native-camera: b6a6a61bcdbd619c19df3df581fcb009131938bf
+  react-native-rsa-native: 652fba77a36dda00de5c842408b126b69e1f4431
   RNKeychain: de0a565ff2f548576ac494612f05f77a7cda3f55
+  RNSVG: 435cda60cd9e1ea6188eb0e21c12fc0f85def8e8
   yoga: 684513b14b03201579ba3cee20218c9d1298b0cc
 
-PODFILE CHECKSUM: bbbd09c2955f9ca9ac9a60246a0fc79500a1cdb3
+PODFILE CHECKSUM: 716ede05c4afb12a2559d3a39ddd836db5d9fff7
 
 COCOAPODS: 1.7.4
