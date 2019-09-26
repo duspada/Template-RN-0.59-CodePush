@@ -15,7 +15,7 @@ export const encryptWithHeader = async (key, message) => {
 export const clearKey = async () => {
   try {
     await AsyncStorage.removeItem('@token');
-    NavigationService.resetNavigation('Login');
+    return NavigationService.resetNavigation('Login');
   } catch (error) {
     return error;
   }

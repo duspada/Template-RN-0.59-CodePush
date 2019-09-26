@@ -69,8 +69,39 @@
 		<string>Octicons.ttf</string>
 		<string>Zocial.ttf</string>
 		<string>Fontisto.ttf</string>
+		<string>Montserrat-Black.ttf</string>
+		<string>Montserrat-BlackItalic.ttf</string>
+		<string>Montserrat-Bold.ttf</string>
+		<string>Montserrat-BoldItalic.ttf</string>
+		<string>Montserrat-ExtraBold.ttf</string>
+		<string>Montserrat-ExtraBoldItalic.ttf</string>
+		<string>Montserrat-ExtraLight.ttf</string>
+		<string>Montserrat-ExtraLightItalic.ttf</string>
+		<string>Montserrat-Italic.ttf</string>
+		<string>Montserrat-Light.ttf</string>
+		<string>Montserrat-LightItalic.ttf</string>
+		<string>Montserrat-Medium.ttf</string>
+		<string>Montserrat-MediumItalic.ttf</string>
+		<string>Montserrat-Regular.ttf</string>
+		<string>Montserrat-SemiBold.ttf</string>
+		<string>Montserrat-SemiBoldItalic.ttf</string>
+		<string>Montserrat-Thin.ttf</string>
+		<string>Montserrat-ThinItalic.ttf</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+  <key>NSCameraUsageDescription</key>
+  <string>Your message to user when the camera is accessed for the first time</string>
+  <!-- Include this only if you are planning to use the camera roll -->
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>Your message to user when the photo library is accessed for the first time</string>
+  <!-- Include this only if you are planning to use the microphone for video recording -->
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Your message to user when the microphone is accessed for the first time</string>
+  <!-- Include this only if you are planning to use the camera roll -->
+  <key>NSPhotoLibraryAddUsageDescription</key>
+  <string>Your message to user when the photo library is accessed for the first time</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Facilidade na autenticação do usuário.</string>
 </dict>
 </plist>
